@@ -5,7 +5,7 @@ import logging
 from smtplib import *
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-from rain_app_creds import PASSWORD, FROM_ADDRESS, TO_ADDRESS
+from rain_app_creds import PASSWORD, FROM_ADDRESS, TO_ADDRESS, API_KEY
 
 
 # --------------------------- LOGGING CONFIGURATION -----------------------------------
@@ -31,7 +31,7 @@ SUBJECT = "This is a Python E-Message."
 CURRENT_TIME = datetime.datetime.now()
 
 # --------------------------- API VARIABLES -----------------------------------
-API_KEY = '31318d7f87d2e5f19e566b48efc8f7c1'
+API_KEY = API_KEY
 OPEN_WEATHER_ENDPOINT = 'https://api.openweathermap.org/data/3.0/onecall'
 
 CURRENT_WEATHER_PARAMS = {
