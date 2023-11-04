@@ -94,6 +94,8 @@ else:
 MESSAGE = f"""
 <h2>Weather Today:</h2>
 <h3>{weather_alert_message}</h3>
+<br>
+
 
 <h4>Powered by www.pythonanywhere.com!</h4>
 <b>Code Status {http_status}: Ran on {CURRENT_TIME} </b>
