@@ -92,11 +92,11 @@ else:
 
 # EMAIL MESSAGE STRUCTURE IN HTML
 MESSAGE = f"""
+<h2>Weather Today:</h2>
+<h3>{weather_alert_message}</h3>
+
+<h4>Powered by www.pythonanywhere.com!</h4>
 <b>Code Status {http_status}: Ran on {CURRENT_TIME} </b>
-
-<h3>Weather Today: {weather_alert_message}</h3>
-
-<b>Powered by www.pythonanywhere.com!</b>
 """
 
 # Send Email with Rain Status for the Day
